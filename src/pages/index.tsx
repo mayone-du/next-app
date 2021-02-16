@@ -2,8 +2,8 @@ import Head from "next/head";
 import { Header } from "../components/header/Header"
 
 const Home = () => {
-  const siteTitle = "イラストレーターRanze | LINEスタンプ・イラスト制作";
-  const metaDescription = "Ranze公式HP";
+  const siteTitle = "some practice";
+  const metaDescription = "meta description";
 
   return (
     <>
@@ -12,7 +12,7 @@ const Home = () => {
         <meta name="description" content={metaDescription} />
       </Head>
       <Header />
-      <h1>{siteTitle}</h1>
+      <h1>Next.js, TypeScript, CSS Practice</h1>
     </>
   )
 }
