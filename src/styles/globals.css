@@ -1,0 +1,13 @@
+body {
+  font-family: sans-serif;
+}
+
+:root {
+  --themeColor: black;
+  --h1FontSize: clamp(20px, 3vw, 40px);
+  --h2FontSize: 20px;
+}
+
+h1 {
+  font-size: var(--h1FontSize);
+}
