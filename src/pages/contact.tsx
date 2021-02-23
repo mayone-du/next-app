@@ -4,6 +4,9 @@ import { Wrapper } from "../components/Wrapper";
 import { Form } from "../components/Form";
 
 const Contact: React.FC = () => {
+
+  
+
   return (
     <>
       <Head>
